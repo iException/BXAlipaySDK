@@ -1,40 +1,20 @@
-#
-# Be sure to run `pod lib lint BXAlipaySDK.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "BXAlipaySDK"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of BXAlipaySDK."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.version          = "15.0.8"
+  s.summary          = "Alipay SDK for iOS to access Alipay platform"
   s.description      = <<-DESC
+                        It's a shame that Alipay doesn't have an official pod for their iOS SDK.
+                        Therefore, we create this pod to track the official Alipay iOS SDK.
                        DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BXAlipaySDK"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
+  s.homepage         = "https://github.com/iException/BXAlipaySDK"
+  s.license          = { :type => 'Custom', :file => 'LICENSE' }
   s.author           = { "Yiming Tang" => "yimingnju@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BXAlipaySDK.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'BXAlipaySDK' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source           = { :git => "https://github.com/iException/BXAlipaySDK.git", :tag => "v#{s.version.to_s}" }
+  s.social_media_url = 'https://twitter.com/yiming_t'
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.frameworks          = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+  s.libraries           = 'z', 'c++'
+  s.resources           = 'AlipaySDK/AlipaySDK.bundle'
+  s.vendored_frameworks = 'AlipaySDK/AlipaySDK.framework'
 end
