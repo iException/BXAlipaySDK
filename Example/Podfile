@@ -1,13 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'BXAlipaySDK_Example', :exclusive => true do
-  pod 'BXAlipaySDK', :path => '../'
-end
-
-target 'BXAlipaySDK_Tests', :exclusive => true do
+target 'BXAlipaySDK_Example' do
   pod 'BXAlipaySDK', :path => '../'
 
-  pod 'Specta'
-  pod 'Expecta'
+  target 'BXAlipaySDK_Tests' do
+    inherit! :search_paths
+  end
 end

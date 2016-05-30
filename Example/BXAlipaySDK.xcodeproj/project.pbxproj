@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3553C052A1F1E07CDF795A9E /* Pods_BXAlipaySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608EFF981A622E41F5151378 /* Pods_BXAlipaySDK_Example.framework */; };
+		3F9A194C33DBE43C807FD479 /* Pods_BXAlipaySDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61DEF4F56B9FAC0DE7EF14B /* Pods_BXAlipaySDK_Tests.framework */; };
+		42242570A0299E2652EBB31D /* Pods_BXAlipaySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CBAECBC475E43AAC8612AA /* Pods_BXAlipaySDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		96F527129449C225454F6B59 /* Pods_BXAlipaySDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4231F43093A8D75FDDCDEBD9 /* Pods_BXAlipaySDK_Tests.framework */; };
 		F142370C1CAE785C00C9C23C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F142370B1CAE785C00C9C23C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00216F15BC58750C39399D9F /* Pods-BXAlipaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4231F43093A8D75FDDCDEBD9 /* Pods_BXAlipaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXAlipaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CE96F9160023DD73360C927 /* Pods-BXAlipaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2BE0419A3CA41A3335386EB1 /* Pods-BXAlipaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BXAlipaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BXAlipaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,13 +56,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		608EFF981A622E41F5151378 /* Pods_BXAlipaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXAlipaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6107DF05833B4A9498ED17A9 /* BXAlipaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BXAlipaySDK.podspec; path = ../BXAlipaySDK.podspec; sourceTree = "<group>"; };
+		6DB914BCE670C8193F3012DA /* Pods-BXAlipaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72E14EBE7F65818210B920E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99CBAECBC475E43AAC8612AA /* Pods_BXAlipaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXAlipaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61DEF4F56B9FAC0DE7EF14B /* Pods_BXAlipaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BXAlipaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF4F9E4AED61350CA9E5BA1 /* Pods-BXAlipaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2B2678F40D39B0D733704BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EFE574A2A1396AEEBBD7C558 /* Pods-BXAlipaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BFEFDA1CD28153506D1B5CE5 /* Pods-BXAlipaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F142370B1CAE785C00C9C23C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		FB320C14053ED36CA2CBE507 /* Pods-BXAlipaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXAlipaySDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				3553C052A1F1E07CDF795A9E /* Pods_BXAlipaySDK_Example.framework in Frameworks */,
+				42242570A0299E2652EBB31D /* Pods_BXAlipaySDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				96F527129449C225454F6B59 /* Pods_BXAlipaySDK_Tests.framework in Frameworks */,
+				3F9A194C33DBE43C807FD479 /* Pods_BXAlipaySDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				E891224ABD67FC3A5BCE509D /* Pods */,
+				9E05A68DE99752BDB0004766 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				608EFF981A622E41F5151378 /* Pods_BXAlipaySDK_Example.framework */,
-				4231F43093A8D75FDDCDEBD9 /* Pods_BXAlipaySDK_Tests.framework */,
+				99CBAECBC475E43AAC8612AA /* Pods_BXAlipaySDK_Example.framework */,
+				A61DEF4F56B9FAC0DE7EF14B /* Pods_BXAlipaySDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,13 +182,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		E891224ABD67FC3A5BCE509D /* Pods */ = {
+		9E05A68DE99752BDB0004766 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00216F15BC58750C39399D9F /* Pods-BXAlipaySDK_Example.debug.xcconfig */,
-				EFE574A2A1396AEEBBD7C558 /* Pods-BXAlipaySDK_Example.release.xcconfig */,
-				FB320C14053ED36CA2CBE507 /* Pods-BXAlipaySDK_Tests.debug.xcconfig */,
-				4CE96F9160023DD73360C927 /* Pods-BXAlipaySDK_Tests.release.xcconfig */,
+				AAF4F9E4AED61350CA9E5BA1 /* Pods-BXAlipaySDK_Example.debug.xcconfig */,
+				BFEFDA1CD28153506D1B5CE5 /* Pods-BXAlipaySDK_Example.release.xcconfig */,
+				2BE0419A3CA41A3335386EB1 /* Pods-BXAlipaySDK_Tests.debug.xcconfig */,
+				6DB914BCE670C8193F3012DA /* Pods-BXAlipaySDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BXAlipaySDK_Example" */;
 			buildPhases = (
-				94126E3F10C782C8AE748571 /* Check Pods Manifest.lock */,
+				B65898252165DCA06D7F6597 /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				78D446CC104C7610AF4B9D47 /* Embed Pods Frameworks */,
-				E1C6DAFDA8041D196E8F6EAA /* Copy Pods Resources */,
+				C1813AE0532C87D7A22EC815 /* 📦 Embed Pods Frameworks */,
+				ADA1C95F275C1710D954AE59 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BXAlipaySDK_Tests" */;
 			buildPhases = (
-				D25A48E26A7C0E9D43D5B8A0 /* Check Pods Manifest.lock */,
+				CF428BD25695845E97FF879A /* 📦 Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				E96A0C97B5BA51EA3AB7FD8F /* Embed Pods Frameworks */,
-				E2BE57AEF02766DC2F86AC63 /* Copy Pods Resources */,
+				9D3C20CE7820A1324823435E /* 📦 Embed Pods Frameworks */,
+				A35B7C005B34F1E4F17AEB9C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,74 +293,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78D446CC104C7610AF4B9D47 /* Embed Pods Frameworks */ = {
+		9D3C20CE7820A1324823435E /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		94126E3F10C782C8AE748571 /* Check Pods Manifest.lock */ = {
+		A35B7C005B34F1E4F17AEB9C /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D25A48E26A7C0E9D43D5B8A0 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E1C6DAFDA8041D196E8F6EAA /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2BE57AEF02766DC2F86AC63 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,19 +323,64 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E96A0C97B5BA51EA3AB7FD8F /* Embed Pods Frameworks */ = {
+		ADA1C95F275C1710D954AE59 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65898252165DCA06D7F6597 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1813AE0532C87D7A22EC815 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF428BD25695845E97FF879A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -509,7 +509,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00216F15BC58750C39399D9F /* Pods-BXAlipaySDK_Example.debug.xcconfig */;
+			baseConfigurationReference = AAF4F9E4AED61350CA9E5BA1 /* Pods-BXAlipaySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -525,7 +525,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE574A2A1396AEEBBD7C558 /* Pods-BXAlipaySDK_Example.release.xcconfig */;
+			baseConfigurationReference = BFEFDA1CD28153506D1B5CE5 /* Pods-BXAlipaySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -541,7 +541,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB320C14053ED36CA2CBE507 /* Pods-BXAlipaySDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2BE0419A3CA41A3335386EB1 /* Pods-BXAlipaySDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +565,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CE96F9160023DD73360C927 /* Pods-BXAlipaySDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 6DB914BCE670C8193F3012DA /* Pods-BXAlipaySDK_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
