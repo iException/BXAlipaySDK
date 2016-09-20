@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BXAlipaySDK_Example" */;
 			buildPhases = (
-				B65898252165DCA06D7F6597 /* 📦 Check Pods Manifest.lock */,
+				B65898252165DCA06D7F6597 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C1813AE0532C87D7A22EC815 /* 📦 Embed Pods Frameworks */,
-				ADA1C95F275C1710D954AE59 /* 📦 Copy Pods Resources */,
+				C1813AE0532C87D7A22EC815 /* [CP] Embed Pods Frameworks */,
+				ADA1C95F275C1710D954AE59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BXAlipaySDK_Tests" */;
 			buildPhases = (
-				CF428BD25695845E97FF879A /* 📦 Check Pods Manifest.lock */,
+				CF428BD25695845E97FF879A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9D3C20CE7820A1324823435E /* 📦 Embed Pods Frameworks */,
-				A35B7C005B34F1E4F17AEB9C /* 📦 Copy Pods Resources */,
+				9D3C20CE7820A1324823435E /* [CP] Embed Pods Frameworks */,
+				A35B7C005B34F1E4F17AEB9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,14 +293,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9D3C20CE7820A1324823435E /* 📦 Embed Pods Frameworks */ = {
+		9D3C20CE7820A1324823435E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +308,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A35B7C005B34F1E4F17AEB9C /* 📦 Copy Pods Resources */ = {
+		A35B7C005B34F1E4F17AEB9C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,14 +323,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Tests/Pods-BXAlipaySDK_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADA1C95F275C1710D954AE59 /* 📦 Copy Pods Resources */ = {
+		ADA1C95F275C1710D954AE59 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,14 +338,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B65898252165DCA06D7F6597 /* 📦 Check Pods Manifest.lock */ = {
+		B65898252165DCA06D7F6597 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,14 +353,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C1813AE0532C87D7A22EC815 /* 📦 Embed Pods Frameworks */ = {
+		C1813AE0532C87D7A22EC815 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,14 +368,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BXAlipaySDK_Example/Pods-BXAlipaySDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF428BD25695845E97FF879A /* 📦 Check Pods Manifest.lock */ = {
+		CF428BD25695845E97FF879A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
