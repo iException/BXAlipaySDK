@@ -1,6 +1,5 @@
 # BXAlipaySDK
 
-[![CI Status](http://img.shields.io/travis/Yiming Tang/BXAlipaySDK.svg?style=flat)](https://travis-ci.org/Yiming Tang/BXAlipaySDK)
 [![Version](https://img.shields.io/cocoapods/v/BXAlipaySDK.svg?style=flat)](http://cocoapods.org/pods/BXAlipaySDK)
 [![License](https://img.shields.io/cocoapods/l/BXAlipaySDK.svg?style=flat)](http://cocoapods.org/pods/BXAlipaySDK)
 [![Platform](https://img.shields.io/cocoapods/p/BXAlipaySDK.svg?style=flat)](http://cocoapods.org/pods/BXAlipaySDK)
@@ -22,6 +21,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "BXAlipaySDK"
 ```
+
 
 ## iOS 9+
 
