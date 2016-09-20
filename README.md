@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/BXAlipaySDK.svg?style=flat)](http://cocoapods.org/pods/BXAlipaySDK)
 [![Platform](https://img.shields.io/cocoapods/p/BXAlipaySDK.svg?style=flat)](http://cocoapods.org/pods/BXAlipaySDK)
 
-## Usage
+The official Alipay SDK for iOS apps to access Alipay platform. This is a mirror repository maintained by iOS developers from Baixing.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* Xcode 7+
+* ARC
+
 
 ## Installation
 
@@ -20,10 +23,57 @@ it, simply add the following line to your Podfile:
 pod "BXAlipaySDK"
 ```
 
-## Author
+## iOS 9+
 
-Yiming Tang, yimingnju@gmail.com
+Add the following lines to your project's info.plist file so that your app would be allowed to open Alipay.app.
 
-## License
+``` xml
+<key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>alipay</string>
+  <string>alipayshare</string>
+</array>
+```
 
-BXAlipaySDK is available under the MIT license. See the LICENSE file for more info.
+Also, add Alipay domains to your app's whitelist.
+
+``` xml
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSExceptionDomains</key>
+    <dict>
+        <key>alipay.com</key>
+        <dict>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+            <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <key>NSTemporaryExceptionMinimumTLSVersion</key>
+            <string>TLSv1.0</string>
+            <key>NSTemporaryExceptionRequiresForwardSecrecy</key>
+            <false/>
+        </dict>
+        <key>alipayobjects.com</key>
+        <dict>
+            <key>NSIncludesSubdomains</key>
+            <true/>
+            <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+            <true/>
+            <key>NSTemporaryExceptionMinimumTLSVersion</key>
+            <string>TLSv1.0</string>
+            <key>NSTemporaryExceptionRequiresForwardSecrecy</key>
+            <false/>
+        </dict>
+    </dict>
+</dict>
+```
+
+Or if security is not an issue to your app, use the following lines.
+
+``` xml
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key>
+  <true/>
+</dict>
+```

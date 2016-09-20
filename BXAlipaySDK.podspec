@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BXAlipaySDK'
-  s.version          = '15.1.3'
+  s.version          = '15.2.0'
   s.summary          = "Alipay SDK for iOS to access Alipay platform."
   s.description      = <<-DESC
                         It's a shame that Alipay doesn't have an official pod for their iOS SDK.
