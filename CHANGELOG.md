@@ -1,6 +1,11 @@
 # Changelog
 
 
+## Version 15.2.1
+
+1. Web view 屏蔽 Alipay JS bridge 的调用。
+
+
 ## Version 15.2.0
 
 1. 增加支付宝支付和授权 2.0 体系服务；

@@ -1,5 +1,5 @@
 PODS:
-  - BXAlipaySDK (15.2.0)
+  - BXAlipaySDK (15.2.1)
 
 DEPENDENCIES:
   - BXAlipaySDK (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BXAlipaySDK: a5f5901ff2f618bee87d4caddcf6bf30eb6d01c7
+  BXAlipaySDK: 82a12a605e2ae63308bc126ed0327975af0bf921
 
 PODFILE CHECKSUM: e48269719bd61559debbc0bb56b1d6d33acbb4ce
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
